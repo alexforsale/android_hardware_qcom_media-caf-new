@@ -56,6 +56,6 @@ LOCAL_MODULE:= libdashplayer
 LOCAL_MODULE_TAGS := optional
 
 ifeq ($(TARGET_ENABLE_QC_AV_ENHANCEMENTS),true)
- include $(BUILD_SHARED_LIBRARY)
+# include $(BUILD_SHARED_LIBRARY)
 endif
 
